@@ -1,0 +1,31 @@
+{
+  "name": "supermind",
+  "version": "0.0.1",
+  "description": "Supermind Node CLI",
+  "homepage": "https://github.com/supermind/supermind-node-cli#readme",
+  "author": "Matthew Wagerfield <matthew@supermind.com>",
+  "license": "MIT",
+  "bin": {
+    "supermind": "cli.js"
+  },
+  "files": [
+    "*.js"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "superlint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supermind/supermind-node-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/supermind/supermind-node-cli/issues"
+  },
+  "dependencies": {
+    "yargs": "^7.0.2"
+  },
+  "devDependencies": {
+    "superlint": "^0.0.4"
+  }
+}
