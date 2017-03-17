@@ -9,11 +9,14 @@
     "supermind": "cli.js"
   },
   "files": [
-    "*.js"
+    "dist"
   ],
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "superlint"
+  },
+  "superlint": {
+    "use": "flowtype"
   },
   "repository": {
     "type": "git",
@@ -26,6 +29,6 @@
     "yargs": "^7.0.2"
   },
   "devDependencies": {
-    "superlint": "^0.0.4"
+    "superlint": "^0.0.11"
   }
 }

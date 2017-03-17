@@ -393,9 +393,9 @@ escope@^3.6.0:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
-eslint-config-supermind@^0.20.0:
-  version "0.20.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-supermind/-/eslint-config-supermind-0.20.0.tgz#3e7131a3fc2b0e1d9e3dceaae3959d6661b7b583"
+eslint-config-supermind@latest:
+  version "0.21.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-supermind/-/eslint-config-supermind-0.21.0.tgz#4e1595364b3d921a7858c71a87076c95a8e53300"
   dependencies:
     babel-eslint "^7.1.1"
     eslint "^3.13.1"
@@ -469,7 +469,7 @@ eslint-plugin-react@^6.7.1:
     jsx-ast-utils "^1.3.4"
     object.assign "^4.0.4"
 
-eslint@^3.13.1, eslint@^3.17.1:
+eslint@^3.13.1, eslint@latest:
   version "3.17.1"
   resolved "https://registry.yarnpkg.com/eslint/-/eslint-3.17.1.tgz#b80ae12d9c406d858406fccda627afce33ea10ea"
   dependencies:
@@ -1099,6 +1099,10 @@ progress@^1.1.8:
   version "1.1.8"
   resolved "https://registry.yarnpkg.com/progress/-/progress-1.1.8.tgz#e260c78f6161cdd9b0e56cc3e0a85de17c7a57be"
 
+ramda@^0.23.0:
+  version "0.23.0"
+  resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.23.0.tgz#ccd13fff73497a93974e3e86327bfd87bd6e8e2b"
+
 read-pkg-up@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/read-pkg-up/-/read-pkg-up-1.0.1.tgz#9d63c13276c065918d57f002a57f40a1b643fb02"
@@ -1283,12 +1287,13 @@ strip-json-comments@~2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a"
 
-superlint@^0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/superlint/-/superlint-0.0.4.tgz#a130d7ae994f8b2e23dee5cdc1294864d9957da9"
+superlint@^0.0.11:
+  version "0.0.11"
+  resolved "https://registry.yarnpkg.com/superlint/-/superlint-0.0.11.tgz#3cb6b1ba0a01badd2337b6259f77d9e6a473ae15"
   dependencies:
-    eslint "^3.17.1"
-    eslint-config-supermind "^0.20.0"
+    eslint latest
+    eslint-config-supermind latest
+    ramda "^0.23.0"
     standard-engine "^6.0.0"
 
 supports-color@^2.0.0:
